@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: whitesmoke;
+}
+
+.container {
+  height: 600px;
+  width: 1330px;
+  display: inline-block;
+}
+
+.wrapper {
+  height: 330px;
+  width: 250px;
+  background-color: white;
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin: 50px;
+  margin-left: 120px;
+}
+
+.myH5{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.575);
+  display: block;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.authorPara {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.575);
+  display: block;
+  margin-top: -20px;
+}
+
+.myH2 {
+  color: rgba(0, 0, 0, 0.575);
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+img {
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.logo {
+  height: 50px;
+  width: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.myBtn {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(54, 98, 81);
+  color: white;
+  padding: 0.5em;
+  width: 50px;
+  display: block;
+  margin-left: 100px;
+}
+
+.myBtn:hover{
+  background-color: green;
+}
+
+.myMenu{
+  height: 50px;
+  width: 1349px;
+  background-color: rgb(54, 98, 81);
+  margin-left: 0px;
+  z-index: 1;
+  bottom: 0;
+  position: fixed;
+}
+
+.myMenu a{
+  text-decoration-line: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 500px){
+  .myH2, h1{
+    text-align: center;
+  }
+
+  .myMenu{
+    width: 500px;
+  }
+}
